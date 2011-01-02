@@ -124,7 +124,7 @@
  	margin-right: 0px;
  	margin-bottom: 0px;
  }
- #utilityNav { width:930px; height:25px; margin:auto; }
+ #utilityNav { width:930px; height:25px; margin: 0 auto;}
  #utilContent { width:930px; margin:0 auto;}
  #utilContent a{ color:#fff; text-decoration:underline;}
  #utilContent a:hover{ color:#3b6000; text-decoration:none;}
@@ -141,9 +141,8 @@
  	height:195px;
  	margin-left:auto; 
  	margin-right:auto;
- 	clear:both;
  }
- #header	h1
+ #header h1
  {
  	font-size:36px;
  	font-variant:small-caps;
@@ -153,57 +152,59 @@
  	color: #FFF;
 
  	}
- #navigation
- { 
- 	width:950px;
- 	height:45px;
- 	margin-bottom:10px;
- 	margin-left:auto; 
- 	margin-right:auto;	
- }
- #navigation span { 
- 	width:135px;
- 	height:45px;
- 	overflow:hidden;
- 	float: left;
+	#navigation
+	{ 
+		width:950px;
+		height:45px;
+		margin-bottom:10px;
+		margin-left:auto; 
+		margin-right:auto;	
+	}
+	#navigation li {
+		list-style: none;
+	}
+	#navigation span { 
+		width:135px;
+		height:45px;
+		overflow:hidden;
+		float: left;
+	}
+	#navigation span  { 
+		color:#FFF;
+		text-align:center;
+		font-size:14px;
+		line-height:45px;
+		font-family:Verdana, Geneva, sans-serif; 
+		font-variant:small-caps;
+		font-weight:bold;
+	}
 
- }
- #navigation span  { 
- 	color:#FFF;
- 	text-align:center;
- 	font-size:14px;
- 	line-height:45px;
- 	font-family:Verdana, Geneva, sans-serif; 
- 	font-variant:small-caps;
- 	font-weight:bold;
- }
+	#navigation span:hover { 
+		width:135px;
+		height:45;
+		font-family:Verdana, Geneva, sans-serif; font-variant:small-caps;
+		float: left;
+		text-align:center;
+		/*background-image:url(../images/navBG.jpg); 
+		background-repeat:no-repeat; 
+		background-position:top center; */
+		background-color:#3b6000;
+		/*overflow:hidden;*/
+	}
+	#navigation a span:hover  { 
+		color:#fff;
+	}
+	#navigation a span  { 
+		color:#fff;
+		font-family:Verdana, Geneva, sans-serif; font-variant:small-caps;
+		text-align:center;
+	}
+	#navigation  a:hover { 
+		color:#779a36;
+		font-family:Verdana, Geneva, sans-serif; font-variant:small-caps;
+		text-align:center;
 
- #navigation span:hover { 
- 	width:135px;
- 	height:45;
- 	font-family:Verdana, Geneva, sans-serif; font-variant:small-caps;
- 	float: left;
- 	text-align:center;
- 	/*background-image:url(../images/navBG.jpg); 
- 	background-repeat:no-repeat; 
- 	background-position:top center; */
- 	background-color:#3b6000;
- 	/*overflow:hidden;*/
- }
- #navigation a span:hover  { 
- 	color:#fff;
- }
- #navigation a span  { 
- 	color:#fff;
- 	font-family:Verdana, Geneva, sans-serif; font-variant:small-caps;
- 	text-align:center;
- }
- #navigation  a:hover { 
- 	color:#779a36;
- 	font-family:Verdana, Geneva, sans-serif; font-variant:small-caps;
- 	text-align:center;
-
- }
+	}
  .left 
  { 
  	float:left;
@@ -216,7 +217,7 @@
  	float:right;
  	text-align:right;
  	margin-right:5px;
- 	width:45%; 
+/* 	width:45%; */
  }
  #copyContainer
  {
