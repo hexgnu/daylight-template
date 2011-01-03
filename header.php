@@ -1,7 +1,7 @@
 <div id="container">
 	<div id="utilityNav">
 		<div id="utilContent">
-			<p class="left"><a href="<?php echo get_permalink(1); ?>">Lodge Merchandise</a>, and <a href="<?php echo get_permalink(1); ?>">Pay Dues Online</a>!</p>
+			<p class="left"><a href="<?php echo get_permalink(77); ?>">Lodge Merchandise</a>, and <a href="<?php echo get_permalink(77); ?>">Pay Dues Online</a>!</p>
 			<p class="right">Daylight Lodge No. 232 F.&amp; A.M. | t: 206.632.2970 | Seattle, WA.</p>
 	  </div>
 	</div>

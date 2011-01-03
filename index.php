@@ -4,6 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?php bloginfo('name'); ?> <?php wp_title('-'); ?></title>
 <?php wp_head();?>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo("template_url"); ?>/scripts/application.js"></script>
 <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.2r1/build/reset/reset-min.css">
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css"  />
 </head>
