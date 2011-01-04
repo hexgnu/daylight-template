@@ -254,7 +254,10 @@
  }
  .footContent { width:900px; margin:10 auto; padding-top:25px;}
  .footContent p { font-size:10px;}
-
+h3.heading {
+	font-size:1em;
+	margin: 1em 0;
+}
 
 /* Calendar styling */
 .weekend-heading {
