@@ -231,7 +231,7 @@
  .banner { width:100%;  text-align:center;}
  #first_Column
  { 	
- 	width:200px; 
+ 	width:130px; 
  	float:left;
  	margin:5px;
 
@@ -242,7 +242,7 @@
  }
  #Second_Column
  {	
- 	width:720px;
+ 	width:790px;
  	float:right;
  	margin-right:10px;
 
@@ -250,7 +250,19 @@
  .clearall { clear:both;}
  #footer 
  { 	margin:10px auto;
- 	width:900px;
+ 	width:790px;
  }
  .footContent { width:900px; margin:10 auto; padding-top:25px;}
  .footContent p { font-size:10px;}
+
+
+/* Calendar styling */
+.weekend-heading {
+	font-size: 1em;
+}
+.normal-day-headking {
+	font-size: 1em;
+}
+.calendar-table span.event {
+	font-size: 1em;
+}
