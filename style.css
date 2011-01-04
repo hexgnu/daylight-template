@@ -25,6 +25,11 @@
  font: normal normal normal 1em/1.25 Arial, Helvetica, sans-serif;
  line-height:1.25em;
  }
+
+ p {
+	margin-bottom: 1em;
+ }
+
  blockquote {
  margin: 1.25em;
  padding: 1.25em
@@ -222,7 +227,6 @@
  #copyContainer
  {
   min-height:450px;
-
  }
  .banner { width:100%;  text-align:center;}
  #first_Column

@@ -27,8 +27,9 @@
 		<?php the_content(); }}?>
     
     <div class="clearall"></div>
+		<?php get_footer();?>
   </div>
-  </div><!-- container close -->
-  <?php get_footer();?>
+  </div> <!-- container close -->
+  
 </body>
 </html>
