@@ -130,8 +130,13 @@
  	margin-right: 0px;
  	margin-bottom: 0px;
  }
- #utilityNav { width:930px; height:25px; margin: 0 auto;}
- #utilContent { width:930px; margin:0 auto;}
+ #utilityNav { 
+	width:950px; 
+	height:25px; 
+	margin: 0 auto; 
+	background-color: #6B1;
+ }
+ #utilContent { width:950px; margin:0 auto;}
  #utilContent a{ color:#fff; text-decoration:underline;}
  #utilContent a:hover{ color:#3b6000; text-decoration:none;}
  #utilContent p { color:#fff; line-height:22px;}
