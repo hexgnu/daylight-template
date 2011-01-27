@@ -45,9 +45,9 @@
 
  
  /* Links and Images */
- a, a:link, a:visited, a:active, a:hover {
+/* a, a:link, a:visited, a:active, a:hover {
  text-decoration: underline;
- }
+ }*/
  img {
  border: none;
  }
@@ -137,7 +137,7 @@
 	background-color: #6B1;
  }
  #utilContent { width:950px; margin:0 auto;}
- #utilContent a{ color:#fff; text-decoration:underline;}
+ #utilContent a{ color:#fff; }
  #utilContent a:hover{ color:#3b6000; text-decoration:none;}
  #utilContent p { color:#fff; line-height:22px;}
  #container { 
@@ -187,6 +187,9 @@
 		font-family:Verdana, Geneva, sans-serif; 
 		font-variant:small-caps;
 		font-weight:bold;
+	}
+	#navigation a {
+		text-decoration: none;
 	}
 
 	#navigation span:hover { 
