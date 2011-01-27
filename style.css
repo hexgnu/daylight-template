@@ -269,3 +269,13 @@ h3.heading {
 .calendar-table span.event {
 	font-size: 1em;
 }
+.paynow {
+	background:url("https://www.paypal.com/en_US/i/btn/btn_paynow_LG.gif") no-repeat scroll center top transparent;
+	border:0 none;
+	cursor:pointer;
+	height:26px;
+	margin:0;
+	padding:0;
+	text-indent:-1000em;
+	width:107px;
+}
