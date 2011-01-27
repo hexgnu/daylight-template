@@ -12,10 +12,11 @@
  
  /* Headlines */
  h1, h2, h3, h4, h5, h6 {
- margin: 0;
- padding: 0;
- font-weight: normal;
- font-family: Arial, Helvetica, sans-serif;
+ 	margin: 0;
+	margin-bottom: 10px;
+ 	padding: 0;
+ 	font-weight: normal;
+ 	font-family: Arial, Helvetica, sans-serif;
  }
  
  /* Text Styles */
@@ -169,7 +170,7 @@
 		list-style: none;
 	}
 	#navigation span { 
-		width:135px;
+		width:130px;
 		height:45px;
 		overflow:hidden;
 		float: left;
@@ -278,4 +279,8 @@ h3.heading {
 	padding:0;
 	text-indent:-1000em;
 	width:107px;
+}
+
+#Second_Column h1:first-child {
+	margin-top 10px;
 }
