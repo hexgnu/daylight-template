@@ -160,6 +160,7 @@
  	}
 	#navigation
 	{ 
+		background-color: #783;
 		width:950px;
 		height:45px;
 		margin-bottom:10px;
@@ -174,8 +175,6 @@
 		height:45px;
 		overflow:hidden;
 		float: left;
-	}
-	#navigation span  { 
 		color:#FFF;
 		text-align:center;
 		font-size:14px;
@@ -186,16 +185,7 @@
 	}
 
 	#navigation span:hover { 
-		width:135px;
-		height:45;
-		font-family:Verdana, Geneva, sans-serif; font-variant:small-caps;
-		float: left;
-		text-align:center;
-		/*background-image:url(../images/navBG.jpg); 
-		background-repeat:no-repeat; 
-		background-position:top center; */
 		background-color:#3b6000;
-		/*overflow:hidden;*/
 	}
 	#navigation a span:hover  { 
 		color:#fff;
@@ -232,7 +222,7 @@
  .banner { width:100%;  text-align:center;}
  #first_Column
  { 	
- 	width:130px; 
+ 	width:135px; 
  	float:left;
  	margin:5px;
 
